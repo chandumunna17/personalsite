@@ -1,0 +1,114 @@
+body{
+  color: #40514E;
+text-align: center;
+  margin: auto;
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+}
+p{
+  font-size: 110%;
+ color: #40514E;
+}
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 562%;
+  color: #66BFBF;
+}
+h2{
+  font-size: 250%;
+  font-family: 'Montserrat', sans-serif;
+  padding: 3px;
+  color: #66BFBF;
+}
+h3{
+  font-size: 180%;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+hr{
+  border:dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.dp{
+  width: 300px;
+  height: 300px;
+  padding:2%;
+}
+.top-container{
+  position: relative;
+  background-color: #EAF6F6;
+}
+.top-cloud{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  right: 300px;
+  top: 40px;
+}
+.bottom-cloud{
+  display: block;
+  width:100px;
+  height:100px;
+  position: relative;
+  left: 70%;
+}
+.mountain{
+  width:600px;
+  height:300px;
+}
+.webdesignlogo{
+  width: 230px;
+  height: 230px;
+}
+.beerlogo{
+  width: 230px;
+  height: 230px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  margin-top: 80px;
+  padding: 50px 0 20px;
+}
